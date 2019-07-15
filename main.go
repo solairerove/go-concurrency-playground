@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	race "github.com/solairerove/go-concurrency-playground/condition"
 	wait "github.com/solairerove/go-concurrency-playground/group"
 )
 
@@ -11,4 +12,6 @@ func main() {
 
 	wait.WaitGroup()
 	wait.What()
+
+	race.Race()
 }
