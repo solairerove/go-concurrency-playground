@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("go-concurrency-playground")
 
 	wait.WaitGroup()
+	wait.What()
 }
