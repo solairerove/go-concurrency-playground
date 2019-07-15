@@ -13,5 +13,7 @@ func main() {
 	wait.WaitGroup()
 	wait.What()
 
-	race.Race()
+	// race.Race()
+	// go run -race main.go
+	race.Mutex()
 }
