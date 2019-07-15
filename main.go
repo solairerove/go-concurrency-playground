@@ -16,4 +16,5 @@ func main() {
 	// race.Race()
 	// go run -race main.go
 	race.Mutex()
+	race.Atom()
 }
